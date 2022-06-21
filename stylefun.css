@@ -1,0 +1,72 @@
+a{
+	text-decoration:none;
+	background-color:transparent;
+	color:white;
+}
+.sidenav1 {
+  height: 36vw;
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+  top: 7vw;
+  left: 0;
+  background-color: #004e92;
+  overflow-x: hidden;
+  
+}
+.sidenav1 a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.sidenav1 a:hover {
+  background-color: #000428;
+  color: white;
+}
+.contents {
+  margin-left: 200px;
+  padding-left: 40px;
+  padding-top:10vw;
+  padding-bottom: 120px;
+  background-color:white;
+}
+input[type=text], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left:20px;
+  
+}
+input[type=submit] {
+  width: 25%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left:80px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+input[type=password], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 18px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left:10px;
+  
+}

@@ -1,0 +1,34 @@
+<?php
+
+session_save_path('../tmp');
+session_start();
+
+//following line is for new latest swiftmailer version 6.1.3
+require_once("composedlib/vendor/autoload.php");
+use Egulias\EmailValidator\EmailValidator;
+use Egulias\EmailValidator\Validation\RFCValidation;
+
+$sub="my subject";
+//$addresses is an array     $addresses['abcd@hotmail.com'] = 'ABC Comapny'
+//$finalmsg is a variable that will hold composed text message either in plain text or in HTML format
+//$attached_file is the variable that contains the name of the file to be attached with the path
+
+$transport = (new Swift_SmtpTransport('ssl://smtp.gmail.com', 465))
+  ->setUsername('bssk@gmail.com')
+  ->setPassword('abcd@123')
+;
+$mailer = new Swift_Mailer($transport);
+$message = (new Swift_Message($sub))
+ ->setFrom(['bsskpune@gmail.com'=>'BSSK India'])
+ ->setTo($addresses)
+ ->setBcc(array($bccaddress => $bccname))
+ ->setReplyTo(array($fromaddress => $fromname))
+ ->setReadReceiptTo(array($fromaddress => $fromname))
+ ->setBody($finalmsg, 'text/html')
+;
+$message->attach(Swift_Attachment::fromPath($attached_file));
+$result = $mailer->send($message);
+
+echo "Emails sent successfully ".$result;
+
+?>

@@ -1,0 +1,165 @@
+.space{
+            position: relative;
+            width:94vw;
+            height:20vw;
+            margin:0;
+            top:2vw;
+            margin-top: 1vw;
+            border:0.1vw solid;
+            border-color:#004e92; 
+}
+.space img{
+            position:relative;
+            width:30vw;
+            height: 18vw;
+            margin-top: 1vw;
+            margin-left:1vw;
+}
+.space h3{
+            position: relative;
+            margin-left: 1vw;
+            margin-top: 0vw;
+            font-size: 3vw;
+            text-decoration: none;
+            color:black;
+          }
+.space p{
+            position: relative;
+            margin-left: 2vw;
+            margin-top: -1vw;
+            font-size: 1.5vw;
+            text-decoration: none;
+            color:black;
+}
+.space a
+{
+    text-decoration: none;
+    color: black;
+}
+.sp{
+            position: absolute;
+            width:90vw;
+            height:110vw;
+            margin-left:4vw;
+            top:7vw;
+            margin-top: 1vw;
+            border:0.3vw solid;
+            border-color:#004e92; 
+}
+.ms img{
+            position:absolute;
+            width:60vw;
+            height: 35vw;
+            margin-top: 1vw;
+            margin-left: -30vw;
+}
+.sp h3{
+            position: absolute;
+            margin-left: 1vw;
+            margin-top: 37vw;
+            font-size: 4vw;
+}
+.sp p{
+            position: relative;
+            /*margin-left: 2vw;*/
+            margin-top: 42vw;
+            font-size: 1.5vw;
+}
+
+.sp a
+{
+    text-decoration: none;
+    color: black;
+}
+/*.spaces{
+      position: absolute;
+      width:80vw;
+      margin-top:0vw;
+      margin-left: 5vw;
+      text-align: left;
+      font-size: 2vw;
+}*/
+.book
+{
+  height: 20vw;
+  width: 80vw;
+  background-color:rgba(0, 78, 146,0.1);
+  border-radius: 2vw;
+}
+.book input[type=date]
+{
+      position: absolute;
+      height: 3vw;
+      width: 15vw;
+  font-size: 1.5vw;
+  border-radius: 1vw;
+  padding: 0vw 0vw 0vw 1vw;
+   
+}
+.book input[type=time]
+{
+  position: absolute;
+  height: 3vw;
+  width: 15vw;
+  font-size: 1.5vw;
+  border-radius: 1vw;
+  padding: 0vw 0vw 0vw 1vw; 
+}
+.book input[type=submit]
+{
+  width: 15vw;
+  height: 3vw;
+  font-size: 1.5vw;
+  background: #004e92;
+  color: #ffffff;
+  border-radius: 0.5vw;
+}
+.noti{
+            position: relative;
+            width:94vw;
+            height:20vw;
+            margin:0;
+            top:8vw;
+            margin-top: 1vw;
+            border:0.1vw solid;
+            border-color:#004e92; 
+}
+.noti img{
+            position:relative;
+            width:30vw;
+            height: 18vw;
+            margin-top: 1vw;
+            margin-left:1vw;
+}
+.noti h3{
+            position: relative;
+            margin-left: 1vw;
+            margin-top: 0vw;
+            font-size: 4vw;
+}
+.noti p{
+            position: relative;
+            margin-left: 2vw;
+            top:0vw;
+            margin-top: -1.5vw;
+            font-size: 1.5vw;
+}
+.noti a
+{
+    text-decoration: none;
+    color: black;
+}
+.noti button{
+  width:10vw;
+  height:2vw;
+  margin-right: 0.5vw;
+  margin-left: 0.5vw;
+  background-color: #004e92;
+  border-radius: 0.4vw;
+}
+h1{
+  margin-top: 10vw;
+  font-size: 3vw;
+  text-decoration: none;
+  color: black;
+}
